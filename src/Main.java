@@ -3,10 +3,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        int cost_b = 21990;
-        int bonus_m = 20;
-        int bonus_s = cost_b / bonus_m;
-        System.out.println(bonus_s);
+        int costPlaneTicket = 13676;
+        int bonusMilesCondition = 20;
+        int flightBonuses = costPlaneTicket / bonusMilesCondition;
+        System.out.println("Flight bonuses: " + flightBonuses);
 
     }
 }
